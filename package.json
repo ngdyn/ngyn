@@ -2,8 +2,13 @@
   "name": "@ngyn/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
+  "scripts": {
+    "start": "nx serve website",
+    "build": "nx run-many -t build --all",
+    "test": "nx run-many -t test --all",
+    "lint": "nx run-many -t lint --all"
+  },
   "dependencies": {
     "@angular/animations": "~17.0.0",
     "@angular/common": "~17.0.0",
