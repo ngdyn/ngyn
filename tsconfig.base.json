@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ngyn/core": ["libs/core/src/index.ts"]
+      "@ngyn/core": ["libs/core/src/index.ts"],
+      "@ngyn/layout": ["libs/layout/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
