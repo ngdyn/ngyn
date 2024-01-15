@@ -2,11 +2,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'ngyn-core',
+  selector: 'ngyn', // eslint-disable-line @angular-eslint/component-selector
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './core.component.html',
-  styleUrl: './core.component.css',
+  templateUrl: './ngyn.component.html',
+  styleUrl: './ngyn.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CoreComponent {}
+export class NgynComponent {}
