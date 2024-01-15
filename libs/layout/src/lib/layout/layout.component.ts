@@ -9,4 +9,4 @@ import { CommonModule } from '@angular/common';
   styleUrl: './layout.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LayoutComponent {}
+export class NgynLayoutComponent {}

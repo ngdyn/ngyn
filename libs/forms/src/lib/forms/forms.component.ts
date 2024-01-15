@@ -9,4 +9,4 @@ import { CommonModule } from '@angular/common';
   styleUrl: './forms.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FormsComponent {}
+export class NgynFormsComponent {}
