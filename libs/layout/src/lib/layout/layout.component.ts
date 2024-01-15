@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgynConfig } from '@ngyn/config';
 
 @Component({
   selector: 'ngyn-layout',
@@ -9,4 +10,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './layout.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NgynLayoutComponent {}
+export class NgynLayoutComponent {
+  @Input({ required: true }) config!: NgynConfig;
+}
