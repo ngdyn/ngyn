@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "libs/*"
+  ],
   "scripts": {
     "start": "nx serve website",
     "build": "nx run-many -t build --all",
