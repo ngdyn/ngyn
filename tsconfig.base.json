@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ngyn/config": ["libs/config/src/index.ts"],
       "@ngyn/core": ["libs/core/src/index.ts"],
       "@ngyn/forms": ["libs/forms/src/index.ts"],
       "@ngyn/layout": ["libs/layout/src/index.ts"]
