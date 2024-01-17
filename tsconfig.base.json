@@ -19,7 +19,8 @@
       "@ngyn/config/json": ["libs/config/json/src/index.ts"],
       "@ngyn/core": ["libs/core/src/index.ts"],
       "@ngyn/forms": ["libs/forms/src/index.ts"],
-      "@ngyn/layout": ["libs/layout/src/index.ts"]
+      "@ngyn/layout": ["libs/layout/src/index.ts"],
+      "@ngyn/logger": ["libs/logger/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
