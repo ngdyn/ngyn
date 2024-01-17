@@ -71,7 +71,12 @@
     },
     "@nx/angular:library": {
       "linter": "eslint",
-      "unitTestRunner": "jest"
+      "unitTestRunner": "jest",
+      "buildable": true,
+      "publishable": true,
+      "compilationMode": "partial",
+      "changeDetection": "OnPush",
+      "style": "scss"
     },
     "@nx/angular:component": {
       "style": "scss"
