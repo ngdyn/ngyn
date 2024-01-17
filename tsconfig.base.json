@@ -20,7 +20,8 @@
       "@ngyn/core": ["libs/core/src/index.ts"],
       "@ngyn/forms": ["libs/forms/src/index.ts"],
       "@ngyn/layout": ["libs/layout/src/index.ts"],
-      "@ngyn/logger": ["libs/logger/src/index.ts"]
+      "@ngyn/logger": ["libs/logger/src/index.ts"],
+      "@ngyn/types": ["libs/types/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
