@@ -22,6 +22,7 @@
       "@ngyn/layout": ["libs/layout/src/index.ts"],
       "@ngyn/logger": ["libs/logger/src/index.ts"],
       "@ngyn/plugins": ["libs/plugins/src/index.ts"],
+      "@ngyn/plugins/visibility": ["libs/plugins/visibility/src/index.ts"],
       "@ngyn/types": ["libs/types/src/index.ts"]
     }
   },
