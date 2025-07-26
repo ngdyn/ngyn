@@ -4,7 +4,6 @@ import { NgynConfig } from '@ngyn/config';
 
 @Component({
   selector: 'ngyn', // eslint-disable-line @angular-eslint/component-selector
-  standalone: true,
   imports: [CommonModule],
   templateUrl: './ngyn.component.html',
   styleUrl: './ngyn.component.scss',

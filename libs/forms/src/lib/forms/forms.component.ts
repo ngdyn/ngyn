@@ -4,7 +4,6 @@ import { NgynConfig } from '@ngyn/config';
 
 @Component({
   selector: 'ngyn-forms',
-  standalone: true,
   imports: [CommonModule],
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.scss',

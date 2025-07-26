@@ -4,7 +4,6 @@ import { NgynConfig } from '@ngyn/config';
 
 @Component({
   selector: 'ngyn-layout',
-  standalone: true,
   imports: [CommonModule],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss',
