@@ -18,7 +18,7 @@
     "@angular/platform-browser": "18.2.13",
     "@angular/platform-browser-dynamic": "18.2.13",
     "@angular/router": "18.2.13",
-    "@ngrx/signals": "17.1.1",
+    "@ngrx/signals": "18.1.1",
     "@nx/angular": "19.8.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
