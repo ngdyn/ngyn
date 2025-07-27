@@ -10,21 +10,45 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ngyn/config": ["libs/config/src/index.ts"],
-      "@ngyn/config/json": ["libs/config/json/src/index.ts"],
-      "@ngyn/core": ["libs/core/src/index.ts"],
-      "@ngyn/forms": ["libs/forms/src/index.ts"],
-      "@ngyn/layout": ["libs/layout/src/index.ts"],
-      "@ngyn/logger": ["libs/logger/src/index.ts"],
-      "@ngyn/plugins": ["libs/plugins/src/index.ts"],
-      "@ngyn/plugins/visibility": ["libs/plugins/visibility/src/index.ts"],
-      "@ngyn/types": ["libs/types/src/index.ts"]
+      "@ngyn/config": [
+        "libs/config/src/index.ts"
+      ],
+      "@ngyn/config/json": [
+        "libs/config/json/src/index.ts"
+      ],
+      "@ngyn/core": [
+        "libs/core/src/index.ts"
+      ],
+      "@ngyn/forms": [
+        "libs/forms/src/index.ts"
+      ],
+      "@ngyn/layout": [
+        "libs/layout/src/index.ts"
+      ],
+      "@ngyn/logger": [
+        "libs/logger/src/index.ts"
+      ],
+      "@ngyn/plugins": [
+        "libs/plugins/src/index.ts"
+      ],
+      "@ngyn/plugins/visibility": [
+        "libs/plugins/visibility/src/index.ts"
+      ],
+      "@ngyn/types": [
+        "libs/types/src/index.ts"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
